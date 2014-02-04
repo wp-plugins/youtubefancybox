@@ -3,7 +3,7 @@ Contributors: milindmore22
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6KJKMAUVXNHDU
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
 Requires at least: 3.3
-Tested up to: 3.5.2
+Tested up to: 3.8.1
 Stable tag: youtubefancybox
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,7 +53,7 @@ in the backend you can genrated shorcodes also you can set default height, width
 
 == Changelog ==
 
-first release for 3.5.2
+first release for 3.8.1
 compatible with IE9,IE10, Chrome, Firefox
 
 == Upgrade notice ==
