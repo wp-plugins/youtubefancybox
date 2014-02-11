@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Videolightbox
- * @version 1.6
+ * @version 1.1
  */
 /*
 Plugin Name: Video Light Box
 Plugin URI: http://milindmore22.blogspot.com/
-Description: This plugin runs with shortcodes [youtube videoid="as-H0sZbbd0" height="100" width="100"] OR [youtube url="https://www.youtube.com/watch?v=DYojBZG5d1Q" height="100" width="100"] for Lightbox thanks to http://www.cssjockey.com 
+Description: This plugin runs with shortcodes [youtube videoid="as-H0sZbbd0" height="100" width="100"] OR [youtube url="https://www.youtube.com/watch?v=DYojBZG5d1Q" height="100" width="100"] for colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) )
 Author: Milind More
-Version: 1.0
+Version: 1.1
 Author URI: 
 */
 if ( is_admin() )

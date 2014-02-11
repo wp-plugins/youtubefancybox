@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
 Requires at least: 3.3
 Tested up to: 3.8.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,5 +56,8 @@ in the backend you can genrated shorcodes also you can set default height, width
 first release for 3.8.1
 compatible with IE9,IE10, Chrome, Firefox
 
+Second release for 3.8.1
+Updated colorboxjs
+
 == Upgrade notice ==
-First version released !
+Updated to latest jquery colorbox.js
