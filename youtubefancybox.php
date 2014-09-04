@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Videolightbox
- * @version 1.1
+ * @version 1.2
  */
 /*
 Plugin Name: Video Light Box
@@ -9,7 +9,7 @@ Plugin URI: http://milindmore22.blogspot.com/
 Description: This plugin runs with shortcodes [youtube videoid="as-H0sZbbd0" height="100" width="100"] OR [youtube url="https://www.youtube.com/watch?v=DYojBZG5d1Q" height="100" width="100"] for colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) )
 Author: Milind More
 Author URI: http://milindmore22.blogspot.com/
-Version: 1.1 
+Version: 1.2
 */
 /**
  * If You are admin you will get admin settings
