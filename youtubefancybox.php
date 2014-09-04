@@ -1,10 +1,10 @@
 <?php
 /**
- * @package Videolightbox
+ * @package YoutubeFancyBox
  * @version 1.2
  */
 /*
-Plugin Name: Video Light Box
+Plugin Name: YouTube FancyBox
 Plugin URI: http://milindmore22.blogspot.com/
 Description: This plugin runs with shortcodes [youtube videoid="as-H0sZbbd0" height="100" width="100"] OR [youtube url="https://www.youtube.com/watch?v=DYojBZG5d1Q" height="100" width="100"] for colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) )
 Author: Milind More

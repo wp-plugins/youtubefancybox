@@ -2,13 +2,13 @@
 Contributors: milindmore22
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6KJKMAUVXNHDU
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
-Requires at least: 3.3
+Requires at least: 3.6
 Tested up to: 4.0
 Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Youtube Fancybox uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
+A YouTube FancyBox uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
 
 == Description ==
 
