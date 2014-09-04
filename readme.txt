@@ -1,14 +1,14 @@
-=== youtubefancybox ===
+=== YouTube FancyBox ===
 Contributors: milindmore22
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6KJKMAUVXNHDU
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
 Requires at least: 3.3
-Tested up to: 3.9
-Stable tag: 1.1
+Tested up to: 4.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A YoutubeFancybox uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
+A Youtube Fancy box uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
 
 == Description ==
 
@@ -56,8 +56,15 @@ in the backend you can genrated shorcodes also you can set default height, width
 first release for 3.8.1
 compatible with IE9,IE10, Chrome, Firefox
 
-Second release for 3.8.1
+Second release for 3.9.1
 Updated colorboxjs
+
+third release for 4.0
+Updated for wordpress 4.0
+Now supports ssl (https)
+Improved look and feel
+
 
 == Upgrade notice ==
 Updated to latest jquery colorbox.js
+support ssl

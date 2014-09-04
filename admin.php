@@ -1,18 +1,27 @@
 <?php
-/** Step 2 (from text above). */
-add_action( 'admin_menu', 'my_plugin_menu' );
-add_action('admin_head', 'load_adminjs_file');
 
-function load_adminjs_file(){
+/**
+ * Adding action calling plugin menu and loading header file
+ */
+add_action( 'admin_menu', 'youtubefancybox_plugin_menu' );
+add_action('admin_head', 'youtubefancybox_adminjs_file');
+
+/**
+ * Loading js and css files
+ */
+function youtubefancybox_adminjs_file(){
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('fancybox_admin', plugins_url('js/fancybox_admin.js',__FILE__) );
 }
-/** Step 1. */
-function my_plugin_menu() {
+/**
+ * Adding submenu page for settings
+ */
+function youtubefancybox_plugin_menu() {
 	add_submenu_page('plugins.php' ,'Youtube FancyBox Options', 'YTubeFancyBox', 'manage_options', 'ytubefancybox', 'youtubefancybox_options' );
 }
-
-/** Step 3. */
+/**
+ * function to captrue settings and project form for admin settings 
+ */
 function youtubefancybox_options(){
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
@@ -36,6 +45,9 @@ function youtubefancybox_options(){
 		}
 		
 	}
+	/**
+	 * Form start from 
+	 */
 	?>
 	<div class="wrap">
 	<h2>Youtube video in FancyBox</h2>
@@ -112,5 +124,8 @@ function youtubefancybox_options(){
 		</table>	
 	</div>
 	<?php 
+	/**
+	 * Form ends
+	 */
 }
 ?>
