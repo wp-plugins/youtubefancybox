@@ -8,11 +8,11 @@ Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Youtube Fancy box uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
+A Youtube Fancybox uses fancy-box(light-box) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
 
 == Description ==
 
-A YoutubeFancybox uses colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) ) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
+A Youtube Fancybox uses colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) ) to show YouTube video in a popup box on click of thumbnail which is generated from YouTube video.
 you can use it with shortcode in page, post and text widget.
 
 Eg:
@@ -53,15 +53,22 @@ in the backend you can genrated shorcodes also you can set default height, width
 
 == Changelog ==
 
-first release for 3.8.1
+**first release for 3.8.1**
+
 compatible with IE9,IE10, Chrome, Firefox
 
-Second release for 3.9.1
+
+**Second release for 3.9.1**
+
 Updated colorboxjs
 
-third release for 4.0
+
+**third release for 4.0**
+
 Updated for wordpress 4.0
+
 Now supports ssl (https)
+
 Improved look and feel
 
 
