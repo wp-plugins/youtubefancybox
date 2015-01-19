@@ -3,8 +3,8 @@ Contributors: milindmore22
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6KJKMAUVXNHDU
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
 Requires at least: 3.6
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,13 @@ Now supports ssl (https)
 Improved look and feel
 
 
+**fourth release for 4.1**
+
+Updated for wordpress 4.1
+
+fixed iphone ipad bugs
+
 == Upgrade notice ==
 Updated to latest jquery colorbox.js
 support ssl
+fixed iphone ipad bugs

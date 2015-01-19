@@ -1,7 +1,7 @@
 <?php
 /**
  * @package YoutubeFancyBox
- * @version 1.2
+ * @version 1.3
  */
 /*
 Plugin Name: YouTube FancyBox
@@ -9,7 +9,7 @@ Plugin URI: http://milindmore22.blogspot.com/
 Description: This plugin runs with shortcodes [youtube videoid="as-H0sZbbd0" height="100" width="100"] OR [youtube url="https://www.youtube.com/watch?v=DYojBZG5d1Q" height="100" width="100"] for colorbox /lightbox (thanks to  Jack Moore(http://www.jacklmoore.com/colorbox/) )
 Author: Milind More
 Author URI: http://milindmore22.blogspot.com/
-Version: 1.2
+Version: 1.3
 */
 /**
  * If You are admin you will get admin settings
@@ -80,7 +80,7 @@ function youtubefancybox_url($attr){
 	if(isset($attr['videoid']))
 	{
 	?>
-	<a class='youtube' href="<?php echo $protocol;?>www.youtube.com/v/<?php echo $attr['videoid']?>?rel=0&amp&autoplay=<?php echo $autoplay?>;wmode=transparent"><img src="<?php echo $protocol;?>img.youtube.com/vi/<?php echo $attr['videoid'];?>/0.jpg" width="<?php echo $attr['width']?>" height="<?php echo $attr['height']?>"/></a>
+	<a class='youtube' href="<?php echo $protocol; ?>www.youtube.com/embed/<?php echo $attr['videoid']; ?>?rel=0&autoplay=<?php echo $autoplay?>&wmode=transparent"><img src="<?php echo $protocol;?>img.youtube.com/vi/<?php echo $attr['videoid'];?>/0.jpg" width="<?php echo $attr['width']; ?>" height="<?php echo $attr['height']; ?>"/></a>
 	<?php
 	}else{
 		echo "\n<br /><span style='clear:both;color:red'>Please Enter Youtube ID or Youtube URL as [youtube videoid='XXXXX']</span>";
