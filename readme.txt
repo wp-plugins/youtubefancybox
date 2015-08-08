@@ -3,8 +3,8 @@ Contributors: milindmore22
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6KJKMAUVXNHDU
 Tags: youtubefancybox, youtube, fancybox, popupvideo, lightbox, lightbox youtube
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 1.3
+Tested up to: 4.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Eg:
 `[youtube videoid="<youtube videoid goes here>" height="<height goes here>" width="<width goes here>" ]`
 `[youtube url="<youtube url goes here>"]`
 
-in the backend you can genrated shorcodes also you can set default height, width and a option to play video automatically or not
+in the backend you can generate shortcodes also you can set default height, width and a option to play video automatically.
 
 == Installation ==
 
@@ -53,15 +53,15 @@ in the backend you can genrated shorcodes also you can set default height, width
 
 == Changelog ==
 
-**first release for 3.8.1**
+**fifth release for 4.3**
 
-compatible with IE9,IE10, Chrome, Firefox
+fixed shorcode inside shortcode bug with return output
 
+**fourth release for 4.1**
 
-**Second release for 3.9.1**
+Updated for wordpress 4.1
 
-Updated colorboxjs
-
+fixed iphone ipad bugs
 
 **third release for 4.0**
 
@@ -72,13 +72,18 @@ Now supports ssl (https)
 Improved look and feel
 
 
-**fourth release for 4.1**
+**Second release for 3.9.1**
 
-Updated for wordpress 4.1
+Updated colorboxjs
 
-fixed iphone ipad bugs
+
+**first release for 3.8.1**
+
+compatible with IE9,IE10, Chrome, Firefox
+
 
 == Upgrade notice ==
 Updated to latest jquery colorbox.js
 support ssl
 fixed iphone ipad bugs
+fixed shortcode inside shortcode bug, means you can place it inside other shortcodes
